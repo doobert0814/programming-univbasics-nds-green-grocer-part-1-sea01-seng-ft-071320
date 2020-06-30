@@ -7,7 +7,6 @@ def find_item_by_name_in_collection(name, collection)
     return collection[index] if collection[index][:item] === name 
     index += 1
   end
-  #binding.pry
 end
 
 def consolidate_cart(cart)
